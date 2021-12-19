@@ -1,0 +1,10 @@
+.col-sm-3 {
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 2) !important;
+    cursor: default !important;
+    transition: all 400ms ease !important;
+}
+
+.col-sm-3:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 4) !important;
+    transform: translateY(-3%) !important;
+}

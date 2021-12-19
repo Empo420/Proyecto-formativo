@@ -1,0 +1,34 @@
+
+:root {
+    --dark: #16191C;
+    --dark-x: #1E2126; 
+    --light: #ffffff;
+}
+
+body {
+    font-family: 'Spartan', sans-serif;
+    font-weight: 300;
+    color: var(--light);
+}
+
+.text-light { color: var(--light) !important; }
+.bg-dark { background-color: var(--dark) !important; }
+.bg-dark-x { background-color: var(--dark-x); }
+
+.btn {
+    min-height: 3.125rem;
+    font-weight: 600;
+}
+
+
+
+.img-1 {
+    background-image: url('img-1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#caja{
+    box-shadow: -4px -4px 23px 5px rgba(0,0,0,0.49);
+    background: blue;
+}
